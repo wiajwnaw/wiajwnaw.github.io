@@ -4,10 +4,10 @@
 
 # Site
 title: 卯相爱吃番茄酱
-subtitle: '技术篇个人博客'
+subtitle: "TA个人博客"
 description: ''
 keywords: TA;'3D建模'
-author: John Doe
+author: 卯相
 language: en
 timezone: ''
 
@@ -52,7 +52,7 @@ highlight:
   hljs: false
 prismjs:
   preprocess: true
-  line_number: true
+  line_number: false
   tab_replace: ''
 
 # Home page setting
