@@ -1,0 +1,36 @@
+- class_name: 博客参考文档
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+    - name: anzhiyu主题
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+
+# - class_name: 推荐博客
+#   flink_style: telescopic
+#   hundredSuffix: ""
+#   link_list:
+#     - name: 安知鱼
+#       link: https://blog.anheyu.com/
+#       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+#       descr: 生活明朗，万物可爱
+#       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+#       color: vip
+#       tag: 技术
+
+- class_name: 小伙伴
+  class_desc: 那些人，那些事
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: 沐雨生
+      link: https://blog.rainvice.com/
+      avatar: https://img.notionusercontent.com/s3/prod-files-secure%2F130f7767-bf4e-497f-ba5c-de6917b9f5f5%2Ff5024e73-10cc-4a93-8339-6f5cd059cac1%2Favatar.png/size/w=800?exp=1732110837&sig=V5hjfpznXPzS32Ex3_B8uUfKHqQ-VY-6aIeTqutHW7Q
+      descr: 技术宅
+      recommend: true
