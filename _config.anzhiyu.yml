@@ -142,7 +142,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://xiangtian.online/wp-content/uploads/thumb/2023/08/fill_w192_h192_g0_mark_%E6%83%B3%E5%A4%A9%E5%B7%A5%E4%BD%9C%E5%AE%A4_1_avatar_Qma1l22869.png
+  img: /tex/fanzao.jpg
   effect: false
 
 # Disable all banner image
