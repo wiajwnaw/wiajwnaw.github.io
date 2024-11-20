@@ -1,0 +1,24 @@
+TA
+-Blender几何节点
+-OSL
+-shader Group
+-Unity ASE
+-Unity shader
+-HLSL
+-Houdini
+-SD
+-UE Group
+
+美术向
+-Blender
+-Maya
+-Max
+-SP
+-八猴
+-资产制作
+
+技术向
+-Unity开发
+-UE开发
+-Cocos开发
+-团结引擎
