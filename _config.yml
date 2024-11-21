@@ -4,10 +4,10 @@
 
 # Site
 title: 卯相爱吃番茄酱
-subtitle: "番茄酱守护者"
-description: ''
-keywords: TA;'3D建模'
-author: 卯相
+subtitle: '番茄酱守护者'
+description: '卯相的技术博客'
+keywords: 'TA,3D,游戏，特效'
+author: John Doe
 language: zh-CN
 timezone: ''
 
@@ -29,12 +29,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-
-# APlayer
-# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
-aplayer:
-  meting: true
-  asset_inject: false
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -58,7 +52,7 @@ highlight:
   hljs: false
 prismjs:
   preprocess: true
-  line_number: false
+  line_number: true
   tab_replace: ''
 
 # Home page setting
@@ -107,6 +101,4 @@ theme: anzhiyu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/wiajwnaw/Hexo.git
-  branch: master
+  type: ''
