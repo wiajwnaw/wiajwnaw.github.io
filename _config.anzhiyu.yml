@@ -1,36 +1,41 @@
 menu:
+  我的:
+    关于本人: /about/ || anzhiyu-icon-paper-plane
+    我的装备: /equipment/ || anzhiyu-icon-dice-d20
+    友人帐: /link/ || anzhiyu-icon-link
+
   文章:
+    #友人帐: /link/ || anzhiyu-icon-link
     隧道: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
 
   友链:
-    友人帐: /link/ || anzhiyu-icon-link
     朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
-
-  我的:
-    音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
+    # 音乐馆: /music/ || anzhiyu-icon-music
+    # 追番页: /bangumis/ || anzhiyu-icon-bilibili
+    # 相册集: /album/ || anzhiyu-icon-images
+    # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
-    关于本人: /about/ || anzhiyu-icon-paper-plane
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-    我的装备: /equipment/ || anzhiyu-icon-dice-d20
+    
 # nav相关配置
 nav:
-  enable: false
-  travelling: false
-  clock: false
+  enable: true
+  travelling: true
+  clock: true
   menu:
-    - title: BiliBili
+    - title: 美术内容
       item:
-        - name: 卯相爱吃番茄酱
+        - name: GGAC
           link: https://blog.anheyu.com/
           icon: /img/favicon.ico
+        - name: AADC
+          link: 
+          icon:
     - title: 技术文章（CSDN）
       item:
         - name: 卯相爱吃番茄酱
@@ -67,7 +72,7 @@ copy:
 #   name: link || icon
 social:
   想天工作室: https://xiangtian.online/ || icon-wangzhan
-  BiliBili: https://space.bilibili.com/32775082?spm_id_from=333.1007.0.0 || icon-bilibilidonghua
+  GitHub: https://github.com/wiajwnaw?tab=repositories || icon-github
   微博: https://weibo.com/u/6336058768 || icon-weibo
 # 作者卡片 状态
 author_status:
@@ -160,7 +165,7 @@ cover:
   archives_enable: true
   # the position of cover in home page (封面显示的位置)
   # left/right/both
-  position: both
+  position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     - /img/default_cover.jpg
@@ -182,14 +187,14 @@ post_meta:
     date_format: simple # date/relative/simple 显示日期还是相对日期 或者 简单日期
     categories: true # true or false 主页是否显示分类
     tags: true # true or false 主页是否显示标籤
-    label: false # true or false 显示描述性文字
+    label: true # true or false 显示描述性文字
   post:
     date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
     date_format: date # date/relative 显示日期还是相对日期
     categories: true # true or false 文章页是否显示分类
     tags: true # true or false 文章页是否显示标籤
     label: true # true or false 显示描述性文字
-    unread: false # true or false 文章未读功能
+    unread: true # true or false 文章未读功能
 
 # 主色调相关配置
 mainTone:
@@ -927,9 +932,9 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: 1
-  start: # 8
-  end: # 22
+  autoChangeMode: 2
+  start: 4 # 8
+  end: 5 # 22
 
 # Don't modify the following settings unless you know how they work (非必要请不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -978,7 +983,7 @@ note:
   light_bg_offset: 0
 
 icons:
-  ali_iconfont_js: //at.alicdn.com/t/c/font_4750970_a5k6kp9d4i7.js # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
+  ali_iconfont_js: //at.alicdn.com/t/c/font_4750970_fyo8wn070t7.js # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
   fontawesome: true #是否启用fontawesome6图标
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
@@ -1058,17 +1063,17 @@ home_top:
   siteText: anheyu.com
   category:
     - name: TA技术美术
-      path: /categories/技术美术/
+      path: /tags/TA技术美术
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
     - name: Technical技术向
-      path: /categories/技术向/
+      path: /tags/技术向
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
     - name: Art美术向
-      path: /categories/美术向/
+      path: /tags/美术向
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
@@ -1078,10 +1083,10 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
+    tips: 项目展示
+    title: BiliBili-干杯！
+    image: /tex/Bilibili.jpg #https://i.pinimg.com/736x/53/17/fd/5317fd714b50daac7e687a9f5c9d756b.jpg #https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+    link: https://space.bilibili.com/32775082?spm_id_from=333.1007.0.0
 
 # 朋友圈配置
 friends_vue:
