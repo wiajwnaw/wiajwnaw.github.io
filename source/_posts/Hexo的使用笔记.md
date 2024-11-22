@@ -45,20 +45,212 @@ cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
 
 # 二、常用命令/方法
 - 本地预览
-  ```hexo s```
-- 清除缓存
-  ```hexo clean```
-- npm依赖安装
-  ```npm install```
-- 文章创建
-  ```hexo new name/hexo n name```
-- 标签/分类创建和用法
-- 本地获取图片/获取图片外链
   
+  ```
+  hexo s
+  ```
+  
+- 清除缓存
+  
+  ```
+  hexo clean
+  ```
+  
+- 生成网站静态文件并部署
+  
+  ```
+  hexo d
+  ```
+  
+- 常用组合
+  
+    ```
+    hexo clean && hexo s || hexo clean && hexo d
+    ```
+    
+- npm依赖安装(每次下拉新的Hexo到本地之后需要做的)
+  
+  ```
+  npm install
+  ```
+  
+- 文章创建
+  
+  ```
+  hexo new name/hexo n name
+  ```
+  
+- 标签/分类创建和用法
+  
+  （按照方法配置即可，创建标签和分类内容不在此处执行）
+  
+  - 标签创建：
+  
+      ```
+      hexo new page tags
+      ```
+  
+      配置：
+  
+      ```
+      ---
+      title: 标签
+      date: 2021-04-06 12:01:51
+      type: "tags"
+      comments: false
+      top_img: false
+      ---
+      ```
+  
+      
+  
+  - 分类创建：
+  
+      ```
+      hexo new page categories
+      ```
+  
+      配置：
+  
+      ```
+      ---
+      title: 分类
+      date: 2022-02-23 17:56:00
+      aside: false
+      top_img: false
+      type: "categories"
+      ---
+      ```
+  
+      
+  
+  - 标签/分类的用法：
+  
+      （在文章中直接创建）
+  
+      ```
+      title: Hexo的使用笔记
+      date: 2024-11-21 19:50:19
+      tags:
+       - Hexo使用
+       - 安知鱼主题
+       - 博客技术笔记
+      categories:
+       - Hexo
+       - 技术分享
+      ```
+  
+      
+  
+  - 本地获取图片/获取图片外链
+  
+      图片需要放在特定的根目录下才可以用一下方法获取到，\根文件夹\themes\anzhiyu\source下创建一个文件夹即可，例如创建Image
+  
+      - 本地获取
+  
+        ```
+        /Image/<image name.jpg/png>
+        ```
+  
+        
+  
+      - 外链获取
+  
+        直接找到图片的链接地址即可获取，如：
+  
+        ```
+        https://cdn-prd.ggac.com/ggac/work/image/2024/2/14/6f912e62-c7c5-430e-b4fd-f5a94a5e8c79-2048x.jpg
+        ```
+  
+        
+  
+      
+  
+      
 # 三、开源好用的主题安装建议
 - anzhiyu主题
+
+  - 主题介绍
+
+    该主题真是我在用的，0基础学习需要点成本，大致可以在1-3天掌握，选择的理由是因为好看的外观和实用的框架正是我所需要的。
+
+    主题预览  [||卯相爱吃番茄酱主页||](https://blog.xiangtian.online/)
+
+    
+
+  - 主题开源地址（GitHub）
+
+    ```
+    https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+    ```
+
+    
+
+  - 主题文档
+
+    ```
+    https://docs.anheyu.com/
+    ```
+
+    
+
 - Solitude主题
 
-# 四、各种主题配置心得
+  - 主题介绍
+
+    是我第二个尝试的主题，配置方面比anzhiyu的主题要舒畅很多，学习成本差不多，但是配置逻辑流畅性和备注看的非常舒服，非常适合小白第一个入手的主题。
+
+    主题预览  [||伍十七||](https://blog.everfu.cn/)
+
+    
+
+  - 主题开源地址（GitHub）
+  
+    ```
+    https://github.com/everfu/hexo-theme-solitude
+    ```
+
+    
+
+  - 主题文档
+  
+    ```
+    https://solitude.js.org/
+    ```
+
+    
+  
+  
+
+# 四、各种主题配置心得（个人推荐）
 - anzhiyu主题
+
+  配置方式主要是个人定制化配置和换肤性更改内容，支持HTML和基本文本输入，外观好看，使用的是张洪Heo框架
+
+  - 基本配置
+
+    该主题内容第一次打开只有顶部图片栏和文章栏和右侧个人信息栏，很多配置需要跟着[文档](https://docs.anheyu.com/)中一步步来，文档中有一个基础配置的篇章，看完那部分就没问题了。
+
+    
+
+  - 进阶配置
+
+    主题的进阶配置，该主题有预设的导航栏、右侧信息栏、个人信息还有其他类型的配置模版，可以直接去除注释使用。
+
+    - 导航栏
+
+      推荐使用关于本人、我的装备友人帐和文章下的所有内容，比较实用，其他根据需求进行设置添加。
+
+    - 文章
+
+      文章图片显示可以使用外链和本地文件夹下的，使用外链请找一个相对安全且稳定的图片服务器，比如[Hello图床](https://www.helloimg.com/user/dashboard)
+
 - Solitude主题
+
+  配置的主要方式和上面的类似，对比上方的优点在于更舒服的定制化配置内容和选项，配置排序恰当且配置起来尤其的舒服。
+  
+  - 基本配置和anzhiyu类似，但是初始只有文章和个人信息侧面板显示，其他的需要用户自行配置。
+  
+  - 进阶配置
+  
+    该模版有自己特点内容在文档中，方便自己后续探索。

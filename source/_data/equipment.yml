@@ -1,9 +1,9 @@
 - class_name: 好物
   description: 实物装备推荐
-  tip: 跟 安知鱼 一起享受科技带来的乐趣
+  tip: 介绍和推荐一下我的硬件设备
   top_background: https://bu.dusays.com/2023/07/05/64a4c38842b7a.webp
   good_things:
-    - title: 生产力
+    - title: 基本配置
       description: 提升自己生产效率的硬件设备
       equipment_list:
         - name: MacBook Pro 2021 16 英寸
@@ -26,7 +26,7 @@
           description: 第三代对比第二代提升很大，和我一样不喜欢入耳式耳机的可以入，空间音频等功能确实新颖，第一次使用有被惊艳到。
           image: https://bu.dusays.com/2023/07/05/64a4c3ded6319.webp
           link: https://www.apple.com.cn/airpods-3rd-generation/
-    - title: 出行
+    - title: 生产力提升
       description: 用来出行的实物及设备
       equipment_list:
         - name: Apple Watch Series 8
