@@ -1,14 +1,15 @@
 ---
 title: Hexo的使用笔记
-date: 2024-11-21 19:50:19
 tags:
- - Hexo使用
- - 安知鱼主题
- - 博客技术笔记
+  - Hexo使用
+  - 安知鱼主题
+  - 博客技术笔记
 categories:
- - Hexo
-top_img: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp #文章顶部图片
-cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+  - - Hexo
+top_img: 'https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp'
+cover: 'https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp'
+abbrlink: 990a9ad9
+date: 2024-11-21 19:50:19
 ---
 # 一、安装一条龙（Git Hab + Vercel）
 

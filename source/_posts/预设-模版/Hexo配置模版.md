@@ -1,22 +1,23 @@
 ---
 title: Hexo配置模版
-date: 2024-11-22 17:00:57
 tags:
- - Hexo使用
- - 安知鱼主题
- - 博客技术笔记
+  - Hexo使用
+  - 安知鱼主题
+  - 博客技术笔记
+  - 预设
 categories:
- - Hexo
- - 预设/模版
-top_img: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp #文章顶部图片
-cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+  - - Hexo
+top_img: 'https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp'
+cover: 'https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp'
+abbrlink: 2489627f
+date: 2024-11-22 17:00:57
 ---
 
 # 关于本人 - 配置模版
 
 路径：/source/_data/about.yml
 
-```yml
+```yaml
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
   avatarImg: /tex/fanzao.jpg
@@ -178,7 +179,7 @@ cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
 
 路径：/source/_data/equipment.yml
 
-```yml
+```yaml
 - class_name: 好物
   description: 实物装备推荐
   tip: 介绍和推荐一下我的硬件设备
@@ -233,7 +234,7 @@ cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
 
 路径：/source/_data/essay.yml
 
-```yml
+```yaml
 - title: 即刻短文                          #框标题     
   subTitle: 咸鱼的日常生活。                #大标题
   tips: 随时随地，分享生活                  #描述
@@ -261,7 +262,7 @@ cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
 
 路径：/source/_data/link.yml
 
-```yml
+```yaml
 - class_name: 框架										#【必填】友链分类名 #【可选】友链分类描述
   flink_style: flexcard									#【必填】flexcard或者anzhiyu或者telescopic
   hundredSuffix: ""										#【可选】解决共同进步板块头像质量问题，配置后共同进步板块的头像会添加该后缀（请确保你的															图片加上 hundredSuffix 的配置后依然可以访问）。 例如:hundredSuffix: "!w120"
@@ -306,7 +307,7 @@ cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
 
 路径：_config.anzhiyu.yml（anzhiyu主题配置）
 
-```yml
+```yaml
 # 朋友圈配置
 friends_vue:
   enable: false																			#类型：Bool true/false [必须]是否开启
@@ -321,7 +322,7 @@ friends_vue:
 
 路径：_config.yml（Hexo配置）
 
-```yml
+```yaml
 #envelope_comment
 #seehttps://akilar.top/posts/e2d3c450/
 envelope_comment:
