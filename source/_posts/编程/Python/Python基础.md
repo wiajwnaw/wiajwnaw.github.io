@@ -10,6 +10,8 @@ tags:
 categories:
   - - DCC
     - Blender
+  - - 编程
+    - Python
 top_img: /tex/P1.png
 cover: /tex/P1.png
 abbrlink: 99832f47
