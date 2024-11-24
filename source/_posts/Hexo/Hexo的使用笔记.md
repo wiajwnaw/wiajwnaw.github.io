@@ -47,38 +47,50 @@ date: 2024-11-21 19:50:19
 # 二、常用命令/方法
 - 本地预览
   
-  ```
+  ```shell
   hexo s
   ```
   
 - 清除缓存
   
-  ```
+  ```shell
   hexo clean
   ```
   
 - 生成网站静态文件并部署
   
-  ```
+  ```shell
   hexo d
   ```
   
 - 常用组合
   
-    ```
+    ```shell
     hexo clean && hexo s || hexo clean && hexo d
     ```
     
 - npm依赖安装(每次下拉新的Hexo到本地之后需要做的)
   
-  ```
+  ```shell
   npm install
   ```
   
 - 文章创建
   
+  ```shell
+  hexo new 
   ```
-  hexo new name/hexo n name
+  
+- 简写
+  
+  ```
+  hexo n
+  ```
+  
+- 文章创建草稿（_draft)
+  
+  ```shell
+  hexo new draft 
   ```
   
 - 标签/分类创建和用法
@@ -87,13 +99,13 @@ date: 2024-11-21 19:50:19
   
   - 标签创建：
   
-      ```
+      ```shell
       hexo new page tags
       ```
   
       配置：
   
-      ```
+      ```shell
       ---
       title: 标签
       date: 2021-04-06 12:01:51
@@ -107,13 +119,13 @@ date: 2024-11-21 19:50:19
   
   - 分类创建：
   
-      ```
+      ```shell
       hexo new page categories
       ```
   
       配置：
   
-      ```
+      ```shell
       ---
       title: 分类
       date: 2022-02-23 17:56:00
@@ -129,7 +141,7 @@ date: 2024-11-21 19:50:19
   
       （在文章中直接创建）
   
-      ```
+      ```shell
       title: Hexo的使用笔记
       date: 2024-11-21 19:50:19
       tags:
@@ -149,7 +161,7 @@ date: 2024-11-21 19:50:19
   
       - 本地获取
   
-        ```
+        ```shell
         /Image/<image name.jpg/png>
         ```
   
@@ -159,7 +171,7 @@ date: 2024-11-21 19:50:19
   
         直接找到图片的链接地址即可获取，如：
   
-        ```
+        ```shell
         https://cdn-prd.ggac.com/ggac/work/image/2024/2/14/6f912e62-c7c5-430e-b4fd-f5a94a5e8c79-2048x.jpg
         ```
   
@@ -168,6 +180,7 @@ date: 2024-11-21 19:50:19
       
   
       
+
 # 三、开源好用的主题安装建议
 - anzhiyu主题
 
