@@ -1,7 +1,8 @@
 ---
 title: OSL着色器语言
 tags:
-  - null
+  - Blender
+  - Cycles
 categories:
   - - Shader
     - OSL 

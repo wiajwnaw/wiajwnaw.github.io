@@ -24,14 +24,10 @@ date: 2024-11-22 17:00:57
   avatarSkills:
     left:
       - 🤖️ 图形图像死忠粉
-      - 🔍 游戏开发爱好者
-      - 🏠 硬件维修一条龙
-      - 🔨 美术设计小能手
+      - 🔍 游戏开发爱好者 #可添加
     right:
       - 专修交互与设计 🤝
-      - 脚踏实地行动派 🏃
-      - 团队小组发动机 🧱
-      - 壮汉人狠话不多 💢
+      - 脚踏实地行动派 🏃 #可添加
   name: 卯相
   description: 是一名 图形学爱好者、Unity/UE开发爱好者、3D建模工程师、B站不知名UP主
   aboutsiteTips:
@@ -40,10 +36,7 @@ date: 2024-11-22 17:00:57
     title2: 热爱而去   感受
     word:
       - 学习
-      - 生活
-      - 程序
-      - 美术
-      - 各种体验
+      - 生活 #可添加
   helloAbout: Hello World!
   skillsTips:
     tips: 技能
@@ -52,12 +45,8 @@ date: 2024-11-22 17:00:57
     tips: 生涯
     title: 无限进步
     list:
-      - desc: EDU,软件工程专业
-        color: "#357ef5"
-      - desc: EDU,软件工程专业
-        color: "#357ef5"
-      - desc: EDU,软件工程专业
-        color: "#357ef5"
+      - desc: EDU,软件工程专业 #可添加
+        color: "#357ef5" 
     img: https://bu.dusays.com/2023/04/21/644287166329b.png
   statistic:
     link: /archives
@@ -98,21 +87,9 @@ date: 2024-11-22 17:00:57
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
-      - name: 约定的梦幻岛
+      - name: 约定的梦幻岛 #可添加
         href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
         cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
-      - name: 咒术回战
-        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
-      - name: 紫罗兰永恒花园
-        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
-      - name: 鬼灭之刃
-        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
-      - name: JOJO的奇妙冒险 黄金之风
-        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
@@ -124,53 +101,9 @@ date: 2024-11-22 17:00:57
     music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
     music_link: /music
   reward_list:
-    - name: 海阔蓝
+    - name: 海阔蓝 #可添加
       amount: 8.8
       datatime: 2023-03-28
-    - name: LK66
-      amount: 66.6
-      datatime: 2023-03-24
-    - name: 张时貳
-      amount: 6.6
-      datatime: 2023-01-22
-    - name: ZeroAf
-      amount: 9.9
-      datatime: 2022-12-14
-    - name: LuckyWangXi
-      amount: 6.6
-      datatime: 2022-12-14
-    - name: 刀中日月长
-      amount: 10
-      datatime: 2022-11-16
-    - name: 鹿啵包
-      amount: 10
-      datatime: 2022-11-08
-    - name: 疾速k
-      amount: 50
-      datatime: 2022-09-20
-    - name: 伴舟先生大霖子
-      amount: 4.03
-      datatime: 2022-10-27
-      suffix: 贝壳
-    - name: Magica_0x0
-      amount: 3.36
-      datatime: 2022-10-07
-      suffix: 贝壳
-    - name: 名字就是要短像这样
-      amount: 3.36
-      datatime: 2022-08-25
-      suffix: 贝壳
-    - name: Leviathan520
-      amount: 1.34
-      datatime: 2022-08-23
-      suffix: 贝壳
-    - name: 托马斯
-      amount: 10
-      datatime: 2022-08-19
-    - name: 哇是猫猫欸
-      amount: 1.34
-      datatime: 2022-08-19
-      suffix: 贝壳
 ```
 
 
@@ -187,45 +120,20 @@ date: 2024-11-22 17:00:57
   good_things:
     - title: 基本配置
       description: 提升自己生产效率的硬件设备
-      equipment_list:
-        - name: MacBook Pro 2021 16 英寸
+      equipment_list:  #可添加
+        - name: MacBook Pro 2021 16 英寸  
           specification: M1 Max 64G / 1TB
           description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
           image: https://bu.dusays.com/2023/07/05/64a4c3b191e2e.png
           link: /posts/571d.html
-        - name: iPad 2020
-          specification: 深空灰 / 128G
-          description: 事事玩得转，买前生产力，买后爱奇艺。
-          image: https://bu.dusays.com/2023/07/05/64a4c3b191e2e.png
-          link: https://www.apple.com.cn/ipad-10.2/
-        - name: iPhone 12 mini
-          specification: 绿色 / 128G
-          description: 超瓷晶面板，玻璃背板搭配铝金属边框，曲线优美的圆角设计，mini大小正好一只手就抓住，深得我心，唯一缺点大概就是续航不够。
-          image: https://bu.dusays.com/2023/07/05/64a4c3ded6319.webp
-          link: https://www.apple.com.cn/iphone-12/specs/
-        - name: AirPods（第三代）
-          specification: 标准版
-          description: 第三代对比第二代提升很大，和我一样不喜欢入耳式耳机的可以入，空间音频等功能确实新颖，第一次使用有被惊艳到。
-          image: https://bu.dusays.com/2023/07/05/64a4c3ded6319.webp
-          link: https://www.apple.com.cn/airpods-3rd-generation/
     - title: 生产力提升
       description: 用来出行的实物及设备
-      equipment_list:
+      equipment_list: #可添加
         - name: Apple Watch Series 8
           specification: 黑色
           description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
           image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
           link: https://www.apple.com.cn/apple-watch-series-8/
-        - name: NATIONAL GEOGRAPHIC双肩包
-          specification: 黑色
-          description: 国家地理黑色大包，正好装下16寸 Macbook Pro，并且背起来很舒适，底部自带防雨罩也好用，各种奇怪的小口袋深得我心。
-          image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
-          link: https://item.jd.com/100011269828.html
-        - name: NATIONAL GEOGRAPHIC学生书包🎒
-          specification: 红白色
-          description: 国家地理黑色大包，冰冰🧊同款，颜值在线且实用。
-          image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
-          link: https://item.jd.com/100005889786.html
 ```
 
 
