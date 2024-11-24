@@ -24,13 +24,18 @@
         - name: 微星 MAG-B650-MORTAR 迫击炮 wifi
           specification: wifi6 M-ATX DDR5
           description: 兼容其他硬件
-          image: https://zhongces3.sina.com.cn/product/20230319/086444229a401f9dca6dc873afc6f7b0.jpeg
+          image: https://doc-fd.zol-img.com.cn/t_s640x2000/g7/M00/0F/09/ChMkK2N97IiIUcr0AAFfsZ5w2PsAAJ9sgNhJs0AAV_J302.jpg
           link: /posts/571d.html
-    - title: 生产力提升
-      description: 用来出行的实物及设备
+    - title: 米粉集合
+      description: 小米系列电子设备
       equipment_list:
-        - name: Apple Watch Series 8
+        - name: Xiaomi 14
           specification: 黑色
           description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
-          image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
+          image: https://inews.gtimg.com/news_bt/OkEv8_OYQIc6dBG2vARASMaSimRHd279IrsWD9ZkKCy2UAA/641
+          link: https://www.apple.com.cn/apple-watch-series-8/
+        - name: Xiaomi S系列手表
+          specification: 黑色
+          description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
+          image: https://img.cnmo.com/2038_600x375/2037228.jpg
           link: https://www.apple.com.cn/apple-watch-series-8/
