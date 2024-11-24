@@ -118,7 +118,7 @@ date: 2024-11-22 17:00:57
   tip: 介绍和推荐一下我的硬件设备
   top_background: https://bu.dusays.com/2023/07/05/64a4c38842b7a.webp
   good_things:
-    - title: 基本配置
+    - title: 基本配置 #可添加
       description: 提升自己生产效率的硬件设备
       equipment_list:  #可添加
         - name: MacBook Pro 2021 16 英寸  
