@@ -147,4 +147,6 @@ auto_dir_categorize:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: https://github.com/wiajwnaw/wiajwnaw.github.io.git
+  branch: main
