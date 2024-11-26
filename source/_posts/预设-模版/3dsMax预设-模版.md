@@ -3,6 +3,7 @@ title: 3dsMax预设/模版
 tags:
   - 3dsMax
   - 预设
+  - 美术向
 categories:
   - - 预设/模版
   - - DCC

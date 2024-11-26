@@ -3,6 +3,7 @@ title: Maya预设/模版
 tags:
   - Maya
   - 预设
+  - 美术向
 categories:
   - - 预设/模版
   - - DCC

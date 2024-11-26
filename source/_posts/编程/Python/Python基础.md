@@ -7,6 +7,7 @@ tags:
   - 插件
   - Houdini
   - VFX
+  - 技术向
 categories:
   - - DCC
     - Blender

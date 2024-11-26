@@ -3,6 +3,7 @@ title: Blender预设/模版
 tags:
   - Blender
   - 预设
+  - 美术向
 categories:
   - - 预设/模版
   - - DCC
@@ -55,7 +56,7 @@ BlenderM3工具插件（理论免费）：
 
 - 空格键
 
-  **space**
+  **Space**
 
 - 按键组合
 
@@ -65,7 +66,7 @@ BlenderM3工具插件（理论免费）：
 
   **次选：**
 
-  Ctrl + [**~；1；2；3；4**]
+  Ctrl + [**'~'；1；2；3；4**]
 
   **其其次选：**
 

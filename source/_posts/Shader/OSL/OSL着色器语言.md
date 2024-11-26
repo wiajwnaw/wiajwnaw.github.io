@@ -3,6 +3,7 @@ title: OSL着色器语言
 tags:
   - Blender
   - Cycles
+  - TA技术美术
 categories:
   - - Shader
     - OSL 

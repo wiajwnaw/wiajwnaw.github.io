@@ -6,6 +6,7 @@ tags:
   - 微软
   - CG
   - 客户端
+  - TA技术美术
 categories:
   - - Shader
     - HLSL 
