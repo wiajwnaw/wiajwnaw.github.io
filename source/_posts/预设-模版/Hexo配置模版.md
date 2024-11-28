@@ -13,6 +13,23 @@ abbrlink: 2489627f
 date: 2024-11-22 17:00:57
 ---
 
+---
+
+**anzhiyu主题导航**栏配置方法
+
+
+
+配置环境：
+
+1. Hexo
+2. anzhiyu主题
+
+---
+
+
+
+
+
 # 关于本人 - 配置模版
 
 路径：/source/_data/about.yml

@@ -11,7 +11,31 @@ cover: 'https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp'
 abbrlink: 990a9ad9
 date: 2024-11-21 19:50:19
 ---
-# 一、安装一条龙（Git Hab + Vercel）
+---
+
+**增加友链的不二选择，就是写一篇可以让朋友入坑的博客搭建教程。**
+
+
+
+
+
+1. **软件配置方案：**（软件配置目标 “完成基本功能、基本写文章和上传Git 下拉Git功能）
+   - Hexo + Hexon（可视化hexo写作管理的WebUI，推荐非程序员和喜欢可视化界面的使用这款）
+   - Hexo + SourceTree + Typora
+   - Hexo + VScode
+   - 我全都要（Hexon有自带的文章分类功能，配置好了之后可能会导致之后配置Hexo分类插件失效或者产生冲突）
+2. **静态网页配置：**
+   - Git Hub + Vercel
+   - GitLab
+   - Gitee（静态网页管理功能已永久下架）
+
+配置方案：
+
+---
+
+
+
+# 一、安装一条龙（Git Hub + Vercel）
 
 ## 1、Hexo本地安装
 - 需要会用一点cmd和windows PowerShell，鼠标选中指定文件右键打开终端（cmd/powerShell)
