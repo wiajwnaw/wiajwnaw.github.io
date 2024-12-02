@@ -4,6 +4,8 @@ tags:
   - 竞赛
 categories:
   - - 比赛/合作开发
+top_img: https://www.helloimg.com/i/2024/12/02/674d1b81ac948.png
+cover: https://www.helloimg.com/i/2024/12/02/674d1b81ac948.png
 abbrlink: a5e7bc41
 date: 2024-11-28 20:34:16
 ---
